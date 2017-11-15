@@ -1,0 +1,192 @@
+/*  DE MÁS CHICO A MÁS GRANDE  */
+
+  /* iPhone 5 */
+@media (min-width: 320px) { /* 320 PX A 414 PX */
+  .home-item-center {
+  height: 210px !important;
+  width: 300px !important;
+  }
+  .home-item {
+  height: 210px !important;
+  width: 300px !important;
+  }
+}
+
+  /* iPhone 6+ */
+@media (min-width: 414px) { /* 414 PX A 599 PX */
+    .home-item-center {
+  height: 198px !important;
+  width: 330px !important;
+  }
+  .home-item {
+  height: 198px !important;
+  width: 330px !important;
+  }
+  .home-item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+}
+/* Intermedio entre iPhone 6+ y iPad Air */
+@media (min-width: 600px) { /* 600 PX A 766 PX */
+    .home-item-center {
+  height: 288px !important;
+  width: 480px !important;
+  }
+  .home-item {
+  height: 288px !important;
+  width: 480px !important;
+  }
+  .home-item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+}
+/* iPad Air */
+@media (min-width: 767px) {  /* 767 PX A 991 PX */
+    .container-big {
+    width: 750px;
+  }
+  .home-item-center {
+  height: 330px !important;
+  width: 550px !important;
+  }
+  .home-item {
+  height: 330px !important;
+  width: 550px !important;
+  }
+  .home-item img {
+  width: 550px;
+  height: 330px;
+  max-height: 330px;
+  max-width: 550px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu.navbar-transparency>li>a {
+  color: rgb(56, 76, 95);
+}
+}
+/* Bootstrap Breakpoint */
+@media (min-width: 992px) { /* 992 PX A 1080 PX */
+    .container-big {
+
+    width: 970px;
+  }
+    .home-item-center {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item {
+  height: 162px !important;
+  width: 270px !important;
+  }
+}
+/* Intermedio entre 992 y 1080 */
+@media (min-width: 1080px) { /* 1080 PX A 1280 PX */
+  .container-big {
+    width: 1030px;
+  }
+  .home-item-center {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item img {
+  max-width: 270px;
+}
+}
+/* HD */
+@media (min-width: 1280px) { /* 1280 PX A 1500 PX */
+  .container-big {
+    width: 1230px;
+  }
+  .home-item-center {
+  height: 201px !important;
+  width: 335px !important;
+  }
+  .home-item {
+   height: 201px !important;
+  width: 335px !important;
+  }
+  .home-item img {
+  max-width: 335px;
+}
+}
+
+/* Intermedio entre 1500 y Full HD */
+@media (min-width: 1500px) {
+.container-big {
+    width: 1480px;
+  }
+    .home-item-center {
+  height: 234px !important;
+  width: 390px !important;
+  }
+  .home-item {
+  height: 234px !important;
+  width: 390px !important;
+  }
+    .home-item img {
+  height: 234px !important;
+  width: 390px !important;
+  max-height: 234px;
+  max-width: 390px;
+}
+}
+ /* FULL HD */ 
+@media (min-width: 1904px) {
+  .container-big {
+    width: 1900px;
+  }
+  .home-item-center {
+    height: 350px !important;
+    width: 500px !important;
+}
+.home-item {
+  margin: 0 auto;
+  overflow: hidden; 
+  height: 350px !important;
+  width: 500px !important;
+  position: relative;
+   border: 3px solid rgb(86, 101, 115  );
+   border-radius: 4px;
+   margin: 2%;
+}
+.home-item img {
+    
+  height: 350px !important;
+  width: 500px !important;
+  max-height: 350px;
+  max-width: 500px;
+}
+}
+
+ /* 4k */
+@media (min-width: 3840px) {
+    .container-big {
+    width: 3830px;
+  }  
+  .container {
+    width: 2500px;
+  }
+    .home-item-center {
+    height: 705px !important;
+    width: 1008px !important;
+}
+.home-item {
+   height: 705px !important;
+    width: 1008px !important;
+}
+.home-item img {
+  height: 705px !important;
+    width: 1008px !important;
+    max-height: 705px;
+  max-width: 1008px;
+}
+
+}
