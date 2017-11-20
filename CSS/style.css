@@ -77,19 +77,19 @@ navbar-brand {
 
 }
 [data-anchor="slide1"].slide {
-  background-image: url(../imagenes/1.png);
+  background-image: url(../imagenes/maquina-1-8k.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 [data-anchor="slide2"].slide {
-  background-image: url(../imagenes/2.png);
+  background-image: url(../imagenes/maquina-2-8k.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 [data-anchor="slide3"].slide {
-  background-image: url(../imagenes/3.png);
+  background-image: url(../imagenes/maquina-4-8k.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
