@@ -412,7 +412,7 @@ font-size: 20px;
     background: url(../imagenes/1963.jpg);
 
     /* Full height */
-    height: 350px; 
+    height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -422,6 +422,7 @@ font-size: 20px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+	background-position: top;
 }
 .parallax.parallax-shorter {
   height: 180px; 
