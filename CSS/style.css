@@ -281,7 +281,7 @@ ul.nav> li > ul.dropdown-menu {
   border-color: #fff;
 }
 .top-navbar {
-	font-size: 12px;
+	font-size: 16px;
 	max-height: 30px;
 	height: 30px;
 	background-color: rgb(56, 76, 95) ;
@@ -312,6 +312,9 @@ ul.nav> li > ul.dropdown-menu {
 }
 .navbar.navbar-transparency .top-navbar .navbar-nav>li>a:hover {
   color: rgb(197, 197, 197);
+}
+.bottom-nav { 
+font-size: 20px;
 }
 .navbar-default .navbar-nav>li>a {
 	color:rgb(146,146,146);
@@ -512,4 +515,12 @@ ul.nav> li > ul.dropdown-menu {
     font-size: 120px !important;
     
     padding: 10% 20% 5%;
+}
+/*dentro de sobre nosotros*/
+.introduccion {
+  padding: 35px 0px;
+}
+.columnas-SN {
+padding: 35px 25px 70px 25px;
+text-align: justify;
 }
