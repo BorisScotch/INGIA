@@ -73,8 +73,9 @@ navbar-brand {
 
 .section-1 {
 	background-color: #e2e2e2;
-	
-
+}
+.fp-auto-height {
+  height: auto !important;
 }
 [data-anchor="slide1"].slide {
   background-image: url(../imagenes/maquina-1-FHD.jpg);
@@ -409,10 +410,10 @@ font-size: 20px;
 }
 .parallax {
     /* The image used */
-    background: url(../imagenes/1963.jpg);
+    background: url(../imagenes/cropped-20170124_182904.jpg);
 
     /* Full height */
-    height: 650px; 
+    height: 350px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -485,8 +486,27 @@ font-size: 20px;
 .produ3-main h3 {
  
 }
+
+/* SOBRE NOSOTROS*/
+.introduccion {
+  padding: 35px 0px;
+}
+.columnas-SN {
+padding: 35px 25px 70px 25px;
+text-align: justify;
+}
+.parallax.parallax-sn {
+  background: url(../imagenes/1963.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
 .bg-circulos {
   background-color:  rgb(56, 76, 95);
+}
+.bg-circulos h1 {
+  color: #fff;
 }
 .circulos {
   padding: 25px 0;
@@ -517,11 +537,23 @@ font-size: 20px;
     
     padding: 10% 20% 5%;
 }
-/*dentro de sobre nosotros*/
-.introduccion {
-  padding: 35px 0px;
+.bios-sn {
+  padding: 35px 25px 70px 25px;
 }
-.columnas-SN {
-padding: 35px 25px 70px 25px;
-text-align: justify;
+.bios-sn h2 {
+  padding-bottom: 30px;
+}
+.bios-sn p {
+  padding: 25px;
+  text-align: justify;
+}
+
+/* CONTACTO */
+
+.formulario{
+  padding-top: 35px;
+}
+.formulario h2 {
+  text-align: center;
+  padding-bottom: 35px;
 }
