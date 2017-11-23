@@ -299,7 +299,9 @@ ul.nav> li > ul.dropdown-menu {
 .top-navbar.navbar-transparency {
 	background-color: rgb(56, 76, 95); ;
 }
-
+.bottom-navbar {
+  font-size: 20px; 
+}
 .navbar-default.navbar-transparency .top-navbar .navbar-nav>li>a {
   color: #fff;
 }
