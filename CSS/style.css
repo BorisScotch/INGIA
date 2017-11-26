@@ -72,12 +72,12 @@ navbar-brand {
 
 
 .section-1 {
-	background-color: #e2e2e2;
+	background-color: #fff;
 }
 .fp-auto-height {
   height: auto !important;
 }
-[data-anchor="slide1"].slide {
+/*[data-anchor="slide1"].slide {
   background-image: url(../imagenes/maquina-1-FHD.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -94,7 +94,7 @@ navbar-brand {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-}
+}*/
 
 .section-2 {
 	background-color: #e2e2e2;
@@ -407,6 +407,29 @@ font-size: 20px;
   
 
 /* Producto 1 pagina */
+
+/*
+ * jQuery Bootstrap Responsive Tabs v2.0.1 | Valeriu Timbuc - vtimbuc.com
+ * github.com/vtimbuc/bootstrap-responsive-tabs
+ * @license WTFPL http://www.wtfpl.net/about/
+ */
+.responsive-tabs-container .tab-pane {
+  margin-bottom: 15px;
+}
+.responsive-tabs-container .accordion-link {
+  display: none;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+/* end responsive tabs */
+.nav.nav-tabs.responsive-tabs a {
+  color: #384c5f;
+}
+
 .jumbo-produ {
   min-height:250px;
 }
