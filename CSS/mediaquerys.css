@@ -1,5 +1,22 @@
 /*  DE MÁS CHICO A MÁS GRANDE  */
 
+@media (min-width: 0px) {/* 0 PX A 319 PX */
+    .container-big {
+    width: 98%;
+  }
+.container {
+  width: 95%;
+}
+  .home-item-center {
+  height: 105px !important;
+  width: 150px !important;
+  }
+  .home-item {
+  height: 105px !important;
+  width: 150px !important;
+  }
+}
+
   /* iPhone 5 */
 @media (min-width: 320px) { /* 320 PX A 414 PX */
   .home-item-center {
@@ -10,6 +27,12 @@
   height: 210px !important;
   width: 300px !important;
   }
+  .container-big {
+    width: 315px;
+  }
+.container {
+  width: 315px;
+}
 }
 
   /* iPhone 6+ */
@@ -26,6 +49,12 @@
   max-height: 100%;
   max-width: 100%;
 }
+.container-big {
+    width: 400px;
+  }
+.container {
+  width: 400px;
+}
 }
 /* Intermedio entre iPhone 6+ y iPad Air */
 @media (min-width: 600px) { /* 600 PX A 766 PX */
@@ -40,6 +69,12 @@
   .home-item img {
   max-height: 100%;
   max-width: 100%;
+}
+.container-big {
+    width: 585px;
+  }
+.container {
+  width: 585px;
 }
 }
 /* iPad Air */
@@ -67,6 +102,9 @@
 .navbar-default .navbar-nav .open .dropdown-menu.navbar-transparency>li>a {
   color: rgb(56, 76, 95);
 }
+.container {
+  width: 750px;
+}
 }
 /* Bootstrap Breakpoint */
 @media (min-width: 992px) { /* 992 PX A 1080 PX */
@@ -81,6 +119,9 @@
   .home-item {
   height: 162px !important;
   width: 270px !important;
+  }
+  .container {
+    width:970px;
   }
 }
 /* Intermedio entre 992 y 1080 */
@@ -99,6 +140,7 @@
   .home-item img {
   max-width: 270px;
 }
+
 }
 /* HD */
 @media (min-width: 1280px) { /* 1280 PX A 1500 PX */
@@ -116,6 +158,9 @@
   .home-item img {
   max-width: 335px;
 }
+  .container {
+    width:1170px;
+  }
 }
 
 /* Intermedio entre 1500 y Full HD */
@@ -189,4 +234,38 @@
   max-width: 1008px;
 }
 
+}
+
+
+@media (max-width: 767px) {
+  .responsive-tabs-container.accordion-xs .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-xs .accordion-link {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-tabs-container.accordion-sm .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-sm .accordion-link {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .responsive-tabs-container.accordion-md .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-md .accordion-link {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-tabs-container.accordion-lg .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-lg .accordion-link {
+    display: block;
+  }
 }
