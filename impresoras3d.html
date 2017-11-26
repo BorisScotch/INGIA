@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INGIA</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/mediaquerys.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/aos.css">
+	<link rel="icon" type="image/svg+xml" href="imagenes/fav-icon-ingia.svg">
+	<link rel="icon" type="image/png" href="imagenes/fav-icon-ingia.png">
+
+	<script type="text/javascript" src="JS/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="JS/aos.js"></script>
+	<script type="text/javascript" src="JS/jquery.fullPage.js"></script>
+	<script src="https://use.fontawesome.com/e379886307.js"></script>
+	<script src="JS/bootstrap.min.js"></script>
+	<script type="text/javascript" src="JS/jquery.fullpage.extensions.min.js"></script>
+	<script type="text/javascript" src="JS/main.js"></script>
+	
+	<script type="text/javascript">
+	$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 60) {
+        $(".navbar").addClass("navbar-transparency");
+        $(".whenontop-bg").attr('src','imagenes/logo-md-lg-white.png');
+        $(".whenontop-sm").attr('src','imagenes/logo-sm-xs-white.png');
+        $(".top-navbar").addClass("navbar-transparency");
+        $(".dropdown-menu").addClass("navbar-transparency");
+        $(".navbar-toggle").addClass("navbar-transparency");
+    	} else {
+	    $(".navbar").removeClass("navbar-transparency");
+	    $(".top-navbar").removeClass("navbar-transparency");
+	    $(".dropdown-menu").removeClass("navbar-transparency");
+	    $(".whenontop-bg").attr('src','imagenes/logo-md-lg.png');
+	    $(".whenontop-sm").attr('src','imagenes/logo-sm-xs.png');
+	    $(".navbar-toggle").removeClass("navbar-transparency");
+	    }
+
+		});	
+
+	</script>
+	
+
+</head>
+<body>
+
+	<nav class="navbar navbar-fixed-top navbar-default">
+		<div class="top-navbar hidden-xs">
+			<div class="container-fluid">
+				<div class="container">
+					<a class="navbar-brand img-center visible-md visible-lg" href="index.html"  style="padding: 7.5px;">
+					
+						<img src="imagenes/logo-md-lg.png" class="img-responsive img-center whenontop-bg">
+						
+					</a>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="sobrenosotros.html">Sobre nosotros</a>
+						</li>
+						<li>
+							<a href="contacto.html">Contactanos</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/INGIAsrl/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://ingia.mitiendanube.com/"><i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <div class="container-fluid">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</button>
+				<a class="navbar-brand img-center visible-xs visible-sm " href="index.html"  style="padding: 7.5px;">
+					
+					<img src="imagenes/logo-sm-xs.png" class="img-responsive img-center whenontop-sm">
+					
+				</a>
+			</div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right bottom-navbar">
+                    <li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos <span class="glyphicon glyphicon-menu-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="producto1.html">Impresión 3D</a></li>
+							<li><a href="producto2.html">Sliders</a></li>
+							<li><a href="#">Perfileria CNC</a></li>
+							<li><a href="#">Barras soportadas</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Industria <span class="glyphicon glyphicon-menu-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Nuestros servicios</a></li>
+							<li><a href="#">Casos de exito</a></li>
+							<li><a href="#">Soluciones</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="#">Soporte <span class="glyphicon glyphicon-cog"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		</div>
+    </nav>
+
+
+    <div id="wrapper">
+<!-- -- - - - - - - - - - - - - - - --  Main -- - - - - - - - - - - - - - - -- -->
+    	<div data-anchor="uno" class="section-1">
+    		<div class="jumbo-produ2">
+    			<h1>IMPRESORAS 3D</h1>
+    		</div>
+    		<div class="container">
+				<ul class="nav nav-tabs responsive-tabs">
+					<li class="active"><a href="#home1">INTRO</a></li>
+					<li><a href="#profile1">IMPRESORA 1</a></li>
+					<li><a href="#messages1">IMPRESORA 2</a></li>
+					<li><a href="#settings1">COMPONENTES</a></li>
+				</ul>
+
+				<div class="tab-content">
+
+					<div class="tab-pane active" id="home1">
+						<div class="produ2-main">
+							<h2>Una impresora 3D que se ajusta a tus necesidades</h2>
+							<h3>Aenean eu pretium enim, sed sagittis massa. Curabitur pharetra, ante vel gravida auctor, tortor mauris sodales dolor, in tempor velit purus id tellus. </h3>
+							<p>Phasellus gravida, massa nec dapibus gravida, sapien elit egestas turpis, et efficitur augue lectus volutpat ipsum. Sed a odio molestie, vulputate arcu sed, feugiat quam. Vestibulum convallis erat vitae neque pulvinar aliquam. Proin nec bibendum odio. Donec orci est, eleifend eu eros nec, sodales laoreet felis. Integer commodo, est vel consectetur cursus, sem elit facilisis est, eget volutpat diam nisi non felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris non magna imperdiet, egestas nunc eu, posuere lorem. Duis id nisl elit. Vivamus vel tristique purus. Duis sit amet odio eu orci lobortis placerat. Donec varius ante nec est suscipit sollicitudin.</p>
+							<p>In nibh lacus, dignissim non porttitor a, ultricies non enim. Donec id quam ex. Nam nisl augue, porta vel sapien sit amet, auctor aliquet elit. Proin varius nec augue vitae rutrum. Donec nulla justo, scelerisque vitae ante et, ornare commodo nunc. Vivamus ullamcorper dolor sit amet tellus imperdiet vestibulum. Aenean euismod urna eu mollis posuere. Duis in convallis erat, eget volutpat ante.</p>
+						
+							<p>Fusce ut purus ultrices, auctor tellus et, finibus est. Suspendisse ut ullamcorper nulla, nec pellentesque purus. Nulla facilisi. In maximus arcu nulla, dapibus suscipit ex rutrum eu. Aliquam rhoncus, nisl quis consequat convallis, nibh turpis ullamcorper lectus, ut elementum neque metus et dolor. Fusce pretium erat a libero maximus sodales. Mauris ullamcorper lobortis purus ut pharetra. Morbi condimentum risus ut efficitur ornare. Maecenas quis varius eros. Suspendisse potenti. Maecenas leo dolor, bibendum eget placerat sit amet, egestas ac tortor. Donec ut risus varius, tempor purus nec, sagittis sem. Quisque dictum nisl tortor, sit amet lobortis justo faucibus et. Aenean fermentum enim felis, sit amet fringilla ante suscipit eget.</p>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="profile1">
+						<div class="produ2-main">
+							<h2>IMPRESORA 1</h2>
+							<h3>Maecenas tincidunt sem ac quam lacinia accumsan nec eu orci. Duis ipsum lacus, porttitor sit amet nulla a, vestibulum luctus augue.</h3>
+							<p>Mauris vel lorem ipsum. Nam dictum tempus erat sit amet malesuada. Nam eget nunc libero. Morbi pretium in ipsum et ullamcorper. Aenean feugiat eget eros vitae vulputate. Maecenas scelerisque sed libero et pellentesque. Maecenas eu vestibulum nulla, sed mattis magna. Nulla at molestie nulla. Etiam accumsan metus arcu, quis laoreet orci venenatis et.</p>
+							<p>Curabitur eget molestie ipsum, mattis dapibus arcu. Praesent convallis dictum eleifend. Fusce tempus massa non massa laoreet, ac vulputate lorem ullamcorper. Nam euismod et tellus ut posuere. Pellentesque gravida massa vel augue porttitor auctor. Fusce molestie augue et nulla ornare pretium. Pellentesque dignissim pulvinar lectus, vitae aliquam diam lacinia ac. Aenean fringilla tincidunt arcu, nec maximus nibh placerat eget. Sed pulvinar eros fermentum, pulvinar eros sed, accumsan nibh. Phasellus maximus tellus id posuere feugiat. Vestibulum porta volutpat justo, vitae congue mi fringilla luctus.</p>
+						
+							<p>Integer quam eros, mollis id suscipit vitae, consectetur id sem. Pellentesque et iaculis enim. Sed venenatis mi justo, eget tempus turpis iaculis eu. Integer sit amet velit ac justo fermentum pretium. Pellentesque efficitur sed dolor at sagittis. Nam blandit lacinia turpis, vitae consequat risus lacinia a. Fusce eleifend purus consequat, cursus neque sit amet, accumsan magna. Duis congue in nibh eget ultricies. In porttitor urna eget augue rutrum viverra.</p>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="messages1">
+						<div class="produ2-main">
+							<h2>IMPRESORA 2</h2>
+							<h3>Nullam ac lacinia tortor, sit amet commodo quam. Nam sem lectus, interdum sit amet urna vitae, scelerisque lacinia magna. Sed interdum facilisis auctor. Nulla malesuada leo sed ipsum euismod, sed semper est efficitur.</h3>
+							<p>Praesent interdum, sem in fringilla venenatis, tortor sem consectetur leo, et iaculis dui orci sed mauris. Praesent tincidunt cursus diam. Suspendisse at aliquam massa, eget aliquet nunc. Cras a sapien ut risus rhoncus gravida at quis metus. Sed tempor erat ac mauris bibendum mattis. Integer et maximus tellus, ut ultricies nunc. Nulla facilisi. Quisque eu libero sit amet velit vehicula eleifend rutrum non diam. Quisque non facilisis mi. Nullam ullamcorper commodo elit nec commodo. Etiam in nisl mauris.</p>
+							<p>Vivamus sed porttitor turpis, id sollicitudin neque. Donec at laoreet mi. Morbi congue molestie tortor ut lobortis. Morbi egestas lorem quis tortor ultricies, ac tincidunt lorem porta. Cras lobortis turpis lectus, nec congue mi venenatis vel. Nulla non sem rutrum, volutpat nisl non, ultricies lorem. Etiam magna urna, porttitor a quam in, ultricies ultrices turpis. Aenean nec elementum ipsum. Fusce eu ante diam. Cras sagittis turpis a posuere efficitur. Sed at diam et nisl consequat porttitor ac et leo. Fusce feugiat magna vitae felis dapibus facilisis. Nunc viverra neque mollis, lobortis ligula sit amet, vestibulum leo.</p>
+						
+							<p>Curabitur aliquet ut felis vel bibendum. Integer nec lectus tristique, vestibulum lacus eget, rhoncus dolor. Vestibulum elementum dui quis ultricies convallis. Sed vel iaculis ante. Cras egestas quis risus mollis tempus. Aliquam vestibulum elementum ligula sed suscipit. Phasellus vulputate, orci non scelerisque laoreet, odio nisi ullamcorper dui, vitae facilisis justo nunc quis turpis. Pellentesque maximus, ipsum vel viverra posuere, eros neque finibus mi, at varius nisl quam pulvinar odio. Pellentesque felis nisi, mollis sed ligula vel, ultrices malesuada lorem. Nulla id justo tempor, posuere sem tempor, iaculis elit. Nunc viverra faucibus pellentesque. Duis efficitur quam suscipit tincidunt viverra. Cras vitae pretium velit. Phasellus commodo ullamcorper neque, volutpat aliquam leo fringilla et.</p>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="settings1">
+						<div class="produ2-main">
+							<h2>COMPONENTES</h2>
+							<h3>Nunc convallis ex et magna tempor consequat. Nullam feugiat, eros id vestibulum ultricies, ligula leo venenatis justo, eget lacinia ex tellus eu nisi. Duis non risus id elit eleifend tristique. Nulla facilisi.</h3>
+							<p>Ut ut ultrices lacus, eu dictum nibh. Phasellus imperdiet id mauris blandit interdum. Phasellus nec ex auctor, euismod leo vitae, pretium ligula. Nullam orci felis, aliquet vitae ligula sit amet, pretium sagittis tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla imperdiet, elit sed pretium vulputate, magna arcu bibendum tellus, et rhoncus leo elit eget turpis. Donec quis ligula nisl. Nullam convallis hendrerit tortor eu porttitor. Maecenas sodales, eros id lobortis pellentesque, velit justo efficitur magna, ut aliquet urna nisl at lectus. Morbi risus sem, malesuada at libero a, feugiat dignissim nulla. Pellentesque eu varius augue, id posuere massa. Morbi sapien est, sodales in tempor semper, luctus quis diam.</p>
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>Placa</th>
+										<th>Modelo</th>
+										<th>Precio</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Arduino</td>
+										<td>UNO Original</td>
+										<td>$258,00</td>
+									</tr>
+									<tr>
+										<td>Arduino</td>
+										<td>UNO DCDUINO</td>
+										<td>$258,00</td>
+									</tr>
+									<tr>
+										<td>Arduino</td>
+										<td>MEGA</td>
+										<td>$379,00</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				</div>
+			</div>
+    	</div>
+	</div>
+
+
+	<!-- -- - - - - - - - - - - - - - - --  footer -- - - - - - - - - - - - - - - -- -->
+	    <div class="footer">
+	    	<div class="container">
+	    		<div class="row">
+		    		<div style="margin-top: 30px;" class="col-md-6">
+		    			<ul>
+			    			<li><a class="hvr-underline-from-left" href="sobrenosotros.html">Sobre nosotros</a></li>
+			    			<li><a class="hvr-underline-from-left" href="contacto.html">Contactanos</a></li>
+			    			<li><a class="hvr-underline-from-left" href="#">Novedades</a></li>
+		    			</ul>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<img class="pull-right" src="imagenes/cropped-cropped-Logo-Ingia-p-fondonegro.png" height="100px" style="margin: 30px;">
+		    		</div>
+	    		</div>
+	    		<hr>
+	    		<div class="row">
+		    		<div class="col-md-6">
+		    			<p>INGIA © Copyright 2017. Todos los derechos reservados.</p>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<p class="pull-right">Terminos y Condiciones.</p>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>
+  	
+    </div>
+	
+    <script>
+	$(document).ready(function() {
+	    $('#wrapper').fullpage({
+		anchors: ['uno', 'dos', 'tres', 'cuatro'],
+		menu: '#myNavbar',
+		autoScrolling: false,
+		scrollBar: true,
+		scrollOverflow: true,
+		fitToSection: false,
+		resetSliders:true,
+		navigationPosition: 'right',
+		loopBottom: true,
+		slidesNavigation: true,
+		lazyLoading: true,
+		verticalCentered:false,
+		});
+	})
+</script>
+<script type="text/javascript">
+	
+			AOS.init({
+				easing: 'ease-out-cubic',
+				duration: 1000,
+				delay: 200,
+				});
+	
+</script>
+<script type="text/javascript">
+	document.querySelector( ".navbar-toggle" ).addEventListener( "click", function() {
+  this.classList.toggle( "active" );
+});
+</script>
+<script>
+$('.responsive-tabs').responsiveTabs({
+  accordionOn: ['xs', 'sm']
+});
+</script>
+	
+</body>
+</html>
