@@ -520,6 +520,11 @@ font-size: 20px;
 padding: 35px 25px 0px 25px;
 text-align: justify;
 }
+.columnas-SN p span {
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: underline;
+}
 .circulos li {
   display: inline;
 }
@@ -551,6 +556,36 @@ text-align: justify;
     border: 1px solid #e2e2e2;
     margin: 0 auto;
 
+}
+/* Bootstrap indicators reset */
+
+.circulos .carousel-indicators li {
+    display: inline-block;
+    width: 33.33333333%;
+    height: auto;
+    margin: inherit;
+    text-indent: inherit;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: none;
+}
+.circulos .carousel-indicators {
+  position: static;
+    bottom: auto;
+    left: auto;
+    z-index: auto;
+    width: auto;
+    padding-left: 0;
+    margin-left: auto;
+    text-align: start;
+    list-style: none;
+}
+.circulos .carousel-indicators .active {
+    width: 33.33333333%;
+    height: auto;
+    margin: auto;
+    background-color: inherit;
 }
 .my-icon-circle:hover {
   -webkit-transition: all 0.6s ease-out;
