@@ -587,6 +587,9 @@ text-align: justify;
     margin: auto;
     background-color: inherit;
 }
+.circulos .carousel-control {
+  width: 5%;
+}
 .my-icon-circle:hover {
   -webkit-transition: all 0.6s ease-out;
   -moz-transition: all 0.6s ease-out;
